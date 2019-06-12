@@ -1,0 +1,10 @@
+a)	Để kiểm tra kiểu của biến, sử dụng câu lệnh
+Type(tên_biến)
+b)	Quy tắc đặt tên biến:
+-	Bắt đầu bằng chữ in thường hoặc in hoa hoặc kì tự _
+-	Bao gồm các kì tự a-z, A-Z, 0-9
+-	Không trùng với các từ khoá của python
+3 tên sai:
+-	3av
+-	#akjsdk
+-	A17_=
