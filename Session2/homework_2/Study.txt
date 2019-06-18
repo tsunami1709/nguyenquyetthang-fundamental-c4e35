@@ -1,0 +1,26 @@
+1. What is Boolean? Write down 3 different expression that results a Boolean type (i.e. 5 == 6)
+    - A Boolean value is either true or false.
+    - Examples:
+    6 >= 7
+    "hi" == "hello"
+    6 + 4 >= 10
+
+2. What is a flow chart? Draw flow chart for the following code snippet:
+    - A flowchart is a diagram that depicts a process, system or computer algorithm.
+    - Flow chart
+    https://drive.google.com/file/d/1m2A40ZGsEhPRReTMEuojiwTHSg6EFw9I/view?usp=sharing
+
+
+3. What is nested conditionals? Write a piece of code that uses nested conditionals
+    - One conditional can also be nested within another
+    - Examples
+    x = float(input("Nhập số x: ")
+    y = float(input("Nhập số y: ")
+    if x > y:
+        print ("x lớn hơn y")
+    else
+        if x == y:
+            print("x bằng y")
+        else 
+            print("x nho hon y")
+ß
