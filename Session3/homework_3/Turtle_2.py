@@ -1,5 +1,7 @@
 from turtle import *
+
 colors = ['red','blue','brown','yellow','grey']
+
 for i in range (5):
     penup()
     forward(50)
@@ -12,4 +14,5 @@ for i in range (5):
         right(90)
         forward(50)
     end_fill()
+    
 mainloop()

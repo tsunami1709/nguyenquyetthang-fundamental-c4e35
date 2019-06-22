@@ -1,5 +1,6 @@
 1. What is nested list?
 - A nested list is a list that appears as an element in another list.
+- To extract an element from the nested list, we can proceed in two steps. First, extract the nested list, then extract the item of interest. It is also possible to combine those steps using bracket operators that evaluate from left to right. 
 2. Can a list store both integers and strings in it?
 - Yes
 - Example: ls = [1, 2, "xin chao"]
