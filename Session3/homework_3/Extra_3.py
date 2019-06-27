@@ -18,3 +18,23 @@ for i in range(2, n+1):
             ls.append(i)
 print(ls)
 
+dic ={}
+for v in ls:
+    if v not in dic:
+        dic[v] = 0
+    dic[v] += 1
+
+print(dic)
+
+print(n, "=", end=" ")
+
+s = ""
+for  v in dic:
+    if dic[v] == 1:
+        s = s + '{}x'.format(v,dic[v])
+    else:
+        s = s + '{}^{}x'.format(v,dic[v])
+
+if len(s) > 0:
+    s = s[0:len(s)-1] 
+print(s)
