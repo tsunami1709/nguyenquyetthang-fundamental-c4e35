@@ -1,0 +1,33 @@
+- Why should we use functions at all?
+Organization
+Reusability
+Testing
+Extensibility
+Abstraction
+
+- How to define/declare a function?
+The syntax for a function definition is:
+def NAME( PARAMETERS ):
+    STATEMENTS
+
+- How to call/use a function?
+Calling the function is performed by using the call operator () after the name of the function
+
+- What is return, why and how do we use it?
+The return statement is used when a function is ready to return a value to its caller.
+
+- Do we have to use return in every function?
+No
+
+- What are function arguments/parameters, why and how we use it?
+The arguments of a function are defined within the def statement. 
+Like all other variables in Python, there is no explicit type associated with the function arguments. 
+This fact is important to consider when making assumptions about the types of data that your function will receive. 
+Function arguments can optionally be defined with a default value. 
+The default value will be assigned in the case that the argument is not present in the call to the function. 
+All arguments without default values must be listed before arguments with default values in the function definition. 
+Any argument can be passed either implicitly by position or explicitly by name,
+regardless of whether or not it has a default value defined.
+
+- How to use function from a different file other than our currently working file?
+From <file> import <functions>
