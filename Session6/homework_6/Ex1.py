@@ -15,7 +15,7 @@ for i in range(len(all_h3)):
     artists = all_h4[i].string
     result.append({'name':names,'artists':artists})
 
-# p.save_as(records=result,dest_file_name="topusuk.xls")
+p.save_as(records=result,dest_file_name="topusuk.xls")
 
 #chỉ download audio thôi không thì nặng quá
 
